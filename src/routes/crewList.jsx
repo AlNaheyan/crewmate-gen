@@ -12,6 +12,7 @@ function CrewmateList({ crewmates, loading }) {
   return (
     <div className="crewmate-list">
       <h2>Your Cosmic Crew</h2>
+      <p className="specialText"> *refresh to see updates*</p>
 
       {crewmates.length === 0 ? (
         <div className="empty-state">
